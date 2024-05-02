@@ -1,0 +1,1 @@
+Scriptname rplzDeathMarkQuestScript extends Quest  
