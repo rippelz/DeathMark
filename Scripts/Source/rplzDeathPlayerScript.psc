@@ -10,8 +10,6 @@ Event OnInit()
 EndEvent
 
 Function MarkActor(ObjectReference actorToMark)
-
-
     if !(IsActor(actorToMark))
         Debug.Trace("NOT FOUND: " + actorToMark)
         JArray.addForm(MarkedActors, actorToMark)
